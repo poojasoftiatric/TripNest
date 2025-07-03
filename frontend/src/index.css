@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts: clean + cozy vibe */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", "Open Sans", sans-serif;
+}
+
+.mobpara {
+  font-size: 15px;
+  color: #37474f; /* Dark gray text */
+  text-align: center;
+}
+
+.mobheading {
+  font-size: 26px;
+  color: #00796b; /* Teal accent */
+  font-weight: bold;
+  text-align: center;
+}
+
+.heading {
+  font-size: 42px;
+  color: #00796b; /* Teal accent */
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.para {
+  color: #555;
+  width: full;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.form_label {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+
+.form_input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-bottom: 2px solid #00796b;
+}
+
+.form_input:focus {
+  outline: none;
+}
+
+.booking_input {
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px 14px;
+  font-size: 16px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #004d40;
+}
+
+.booking_input:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 10px 25px;
+  font-weight: 600;
+  background: #00796b;
+  border-radius: 6px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #004d40;
+  border-radius: 20px;
+}
+
+.Searchbtn,
+.Bluebtn {
+  padding: 10px 25px;
+  font-weight: 600;
+  background: #0288d1; /* Coastal blue */
+  border-radius: 6px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.Searchbtn:hover,
+.Bluebtn:hover {
+  background: #0277bd;
+  border-radius: 10px;
+}
+
+.Redbtn {
+  padding: 10px 25px;
+  font-weight: 600;
+  background: #d84315; /* Warm earthy accent */
+  border-radius: 6px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.Redbtn:hover {
+  background: #bf360c;
+  border-radius: 10px;
+}
+
+.Greenbtn {
+  padding: 10px 25px;
+  font-weight: 600;
+  background: #388e3c;
+  border-radius: 6px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.Greenbtn:hover {
+  background: #2e7d32;
+  border-radius: 10px;
+}
+
+.noCbtn {
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 6px;
+  color: white;
+  background: #757575; /* Neutral option */
+  transition: 0.3s ease;
+}
+
+.noCbtn:hover {
+  border-radius: 20px;
+}
+
+.spn {
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  border: 1px solid #004d40;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.active_page {
+  background: #00796b;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.tableData {
+  padding: 7px 14px;
+}
+
+.tdFont {
+  font-size: 14px;
+}

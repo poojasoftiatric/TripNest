@@ -1,0 +1,33 @@
+.search-bar {
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 20px 60px 0px;
+  width: max-content;
+  margin-top: 50px;
+  background: #ffffff;
+}
+
+.form-group span {
+  font-size: 1.8rem;
+  color: #00796b; /* Teal brand accent */
+}
+
+.form-group input {
+  border: none;
+  font-size: 0.95rem;
+  color: #333;
+  background: transparent;
+}
+
+.form-group input:focus {
+  outline: none;
+}
+
+.form-group h6 {
+  margin-bottom: 0;
+  color: #00796b; /* Brand accent */
+}
+
+.form-group-fast {
+  border-right: 2px solid #ddd;
+}

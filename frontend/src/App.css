@@ -1,0 +1,27 @@
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #004d40 !important; /* Deep teal border */
+  opacity: 1 !important;
+  background: white !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #00796b !important; /* Teal active */
+  border: none !important;
+}
+
+.swiper {
+  padding-bottom: 70px !important;
+}
+
+.swiper-slide.swiper-slide-next {
+  background: #00796b; /* Teal slide highlight */
+  border-radius: 12px;
+  box-shadow: 0 20px 70px rgba(0, 121, 107, 0.15) !important;
+}
+
+.swiper-slide.swiper-slide-next h4,
+.swiper-slide.swiper-slide-next p {
+  color: white !important;
+}
